@@ -1,0 +1,7 @@
+{ "token": "MTEzMDkwNDcxNDgwOTE5MjU0OQ.GHk54h.4e6P8LcjgEI3orKTu2d9wtiDhLqwdKvQw_73kw",
+  "mongourl": "mongodb+srv://aio:aio@cluster0.md1qavp.mongodb.net/?retryWrites=true&w=majority",
+  "prefix": "!",
+  "everyoneMention": false,
+  "hostedBy": true,
+  "message_remove_time": 30
+}

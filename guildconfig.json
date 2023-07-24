@@ -1,0 +1,36 @@
+{ "serverstats_vc": {
+	"time_vc_id": "VoiceChannel ID",
+    "humans_vc_id": "VoiceChannel ID",
+	"bots_vc_id": "Voice Channel ID",
+	"total_vc_id": "Voice Channel ID"
+  },
+  "Guild ID": {
+	"welcome": {
+		"channelID": "Welcome Channel ID",
+		"message": "Hey {mention}, welcome to !  Go ahead <#1042040912924135524> to gain access to all other channels and automatically be moved next time! if you do not verify within 1 hour you will automatically be kicked.", 
+		"//msg-formats": "if you type {mention} the user will mentioned.like {user} {tag} {rank}",
+		"img_url": "https://cdn.discordapp.com/attachments/1037748008261013614/1037748213324714044/WELCOME.gif"
+    },
+	
+    "logs": {
+		"welcome_logs": "Invite Logs Channel ID",
+		"kick_logs": "Kick Logs Channel ID",
+		"ban_logs": "Ban Logs Channel ID"
+    },
+    "mute_time": 360,
+    "links_spam_time": 1,
+    "welcome_emoji": "✅",
+    "antilink": {
+      "enabled": true,
+      "allowgif": true,
+      "rolesExcluded": "Role ID which can use links",
+      "channelOnly": "Channel ID to monitor for links"
+    },
+    "autokick": {
+       "enabled": true,
+       "roleToCheck": "Role ID, if user has this role, they won't be kicked",
+       "timeInMins": 30,
+       "message": "Message Sent to user in dms if they are kicked for not gaining role"
+    }
+  }
+}
